@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Govee Lights</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box" id="wand">
+                <h2>Wand</h2>
+                <label for="power">Power:</label>
+                <input type="button" id="power" value="loading...">
+                <label for="brightness">Brightness:</label>
+                <input type="range" id="brightness" min="0" max="100" class="slider" value="0" step="5">
+                    <div id="valB"></div>
+                <label for="color">Color:</label>
+                <input type="color" id="color" value="#000000">
+                <input type="button" name="submit" value="Change Lights" id="submit">
+            </div>
+            <div class="box" id="schrank">
+                <h2>Schrank</h2>
+                <label for="power2">Power:</label>
+                <input type="button" id="power2" value="loading...">
+                <label for="brightness2">Brightness:</label>
+                <input type="range" id="brightness2" min="0" max="100" class="slider" value="0" step="5">
+                    <div id="valB2"></div>
+                <label for="color2">Color:</label>
+                <input type="color" id="color2" value="#000000">
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
